@@ -72,7 +72,11 @@ h1 > a:hover {
 }
 
 .content_box p {
-	text-indent: 2em;
+	margin-top: 0.5em;
+}
+
+.content_box p:first-child {
+	margin-top: 0;
 }
 
 h2 {
@@ -125,4 +129,23 @@ h2 {
 
 #content_box_menu a {
 	text-decoration: none;
+}
+
+h3 {
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+	text-indent: 1.5em;
+	font-weight: bold;
+}
+
+.bib_link {
+	font-size: 75%;
+	text-decoration: none;
+	color: #807640;
+}
+
+.content_box li {
+	margin-left: 1.5em;
+	list-style: disc;
 }
